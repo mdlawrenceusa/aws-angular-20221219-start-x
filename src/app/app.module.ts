@@ -14,7 +14,7 @@ import { CvComponent } from './cv/cv.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'cv', component: ProductListComponent },
+      { path: 'cv', component: CvComponent },
 
     ])
   ],
