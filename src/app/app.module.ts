@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { CvComponent } from './cv/cv.component';
+import { ArchitectComponent } from './architect/architect.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,8 @@ import { CvComponent } from './cv/cv.component';
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'cv', component: CvComponent },
+      { path: 're', component: ArchitectComponent },
+
 
     ])
   ],
@@ -22,7 +25,8 @@ import { CvComponent } from './cv/cv.component';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    CvComponent
+    CvComponent,
+    ArchitectComponent
   ],
   bootstrap: [
     AppComponent
