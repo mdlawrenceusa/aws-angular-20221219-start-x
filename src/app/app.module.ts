@@ -16,7 +16,7 @@ import { ArchitectComponent } from './architect/architect.component';
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'cv', component: CvComponent },
-      { path: 're', component: ArchitectComponent },
+      { path: 're/architect', component: ArchitectComponent },
 
 
     ])
